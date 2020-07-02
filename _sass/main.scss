@@ -26,6 +26,10 @@ a:hover, a:focus, a:active {
     background: $tertiary-color;
 }
 
+img {
+    max-width: 100%;
+}
+
 header {
     margin-top: 1rem;
 }
@@ -33,6 +37,7 @@ header {
 .container {
     display: block;
     margin: 0 auto;
+    padding: 0 0.5rem;
     max-width: 600px;
     position: relative;
 }

@@ -71,3 +71,5 @@ figure.highlight { margin: 0; }
 .highlight .dl { color: #e6db74 } 
 
 .highlight .lineno { color: $quaternary-color; }
+
+.highlight pre { white-space: pre; overflow: auto; }
