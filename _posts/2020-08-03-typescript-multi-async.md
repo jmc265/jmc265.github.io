@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Typescript Multi Async Interface
-date: 2020-06-26
+date: 2020-08-03
 categories: typescript
 ---
 
