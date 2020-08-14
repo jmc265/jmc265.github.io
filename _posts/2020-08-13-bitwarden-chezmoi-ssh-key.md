@@ -46,9 +46,9 @@ echo "{\"organizationId\":null,\"folderId\":null,\"type\":2,\"name\":\"sshkey\",
 
 And finally, we need to tell chezmoi where to get the key from. Create a file in your chezmoi repo at this location: `private_dot_ssh/private_id_rsa.tmpl` and add this as the contents:
 
-```
-\{{ (bitwarden "item" "sshkey").notes }}
-```
+{% highlight json %}
+{{ (bitwarden "item" "sshkey").notes }}
+{% endhighlight %}
 
 (For OSX, this file needs a new line character at the end. For Linux, I believe it mustn't, so you might need to end the file with `-}}` instead)
 
