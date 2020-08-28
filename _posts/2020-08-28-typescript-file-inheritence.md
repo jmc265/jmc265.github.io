@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Typescript File Inheritance
-date: 2020-06-26
+date: 2020-08-28
 categories: typescript
 ---
 
